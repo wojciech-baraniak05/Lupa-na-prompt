@@ -1,0 +1,61 @@
+Prompt;Flag
+Przecięcie dowolnej, nawet nieprzeliczalnej rodziny sigma-ciał jest zawsze sigma-ciałem.;1
+Skończona addytywność prawdopodobieństwa jest warunkiem silniejszym niż przeliczalna addytywność.;0
+Jeśli ciąg zdarzeń jest wstępujący, to prawdopodobieństwo sumy jest granicą prawdopodobieństw.;1
+Zbiór Vitaliego jest przykładem zbioru, który jest borelowski, ale nie jest mierzalny w sensie Lebesgue'a.;0
+Jeśli zdarzenia A, B i C są parami niezależne, to muszą być również wzajemnie niezależne.;0
+Pierwszy Lemat Borela-Cantellego mówi, że jeśli suma prawdopodobieństw zdarzeń jest skończona, to z prawdopodobieństwem 1 zajdzie skończenie wiele tych zdarzeń.;1
+Dystrybuanta zmiennej losowej jest funkcją niemalejącą i lewostronnie ciągłą.;0
+Jeśli funkcja g jest wypukła, to nierówność Jensena orzeka, że g(E[X]) <= E[g(X)].;1
+Wariancja przekształcenia liniowego aX+b wynosi a * Var[X].;0
+Jeśli zmienne losowe są niezależne, to ich kowariancja wynosi 0.;1
+Brak korelacji między zmiennymi losowymi zawsze implikuje ich niezależność.;0
+Macierz kowariancji wektora losowego jest zawsze symetryczna i nieujemnie określona.;1
+Zbieżność z prawdopodobieństwem 1 implikuje zbieżność według prawdopodobieństwa.;1
+Zbieżność według prawdopodobieństwa implikuje zbieżność z prawdopodobieństwem 1.;0
+MPWL Kołmogorowa (I) zachodzi, jeśli zbieżny jest szereg sumy wariancji dzielonych przez n^2.;1
+Funkcja charakterystyczna zmiennej losowej istnieje tylko wtedy, gdy zmienna ta ma skończone momenty wszystkich rzędów.;0
+Jeśli funkcja generująca momenty istnieje w otoczeniu zera, to wyznacza ona rozkład zmiennej losowej jednoznacznie.;1
+Centralne Twierdzenie Graniczne orzeka, że sumy niezależnych zmiennych losowych o jednakowym rozkładzie i skończonej wariancji zbiegają według rozkładu do rozkładu normalnego.;1
+Warunkowa wartość oczekiwana E[X|Y] jest liczbą rzeczywistą, a nie zmienną losową.;0
+Jeśli wektor losowy (X,Y) ma rozkład normalny i Cov(X,Y)=0, to zmienne X i Y są niezależne.;1
+Metoda Newtona-Raphsona dla pierwiastków jednokrotnych charakteryzuje się zbieżnością kwadratową.;1
+Złożoność obliczeniowa algorytmu eliminacji Gaussa dla układu n równań wynosi O(n^2).;0
+Metoda bisekcji gwarantuje znalezienie pierwiastka w zadanym przedziale, o ile funkcja jest ciągła i ma różne znaki na krańcach.;1
+Wskaźnik uwarunkowania macierzy informuje jedynie o czasie potrzebnym na wykonanie obliczeń numerycznych.;0
+Rozkład LU polega na przedstawieniu macierzy w postaci iloczynu macierzy dolnotrójkątnej i górnotrójkątnej.;1
+Błąd obcięcia jest tożsamy z błędem zaokrąglenia i wynika wyłącznie z reprezentacji liczb w komputerze.;0
+Metoda Eulera rozwiązywania równań różniczkowych jest metodą o wolnej zbieżności i niskim rzędzie dokładności.;1
+Rozkład LU macierzy istnieje zawsze, nawet jeśli na głównej przekątnej występują zera (bez konieczności permutacji).;0
+Standard IEEE 754 dotyczy reprezentacji binarnej i operacji na liczbach zmiennoprzecinkowych.;1
+Metoda Jacobiego jest zbieżna dla dowolnej macierzy nieosobliwej, niezależnie od jej struktury diagonalnej.;0
+Aproksymacja średniokwadratowa ma na celu minimalizację błędu zdefiniowanego w sensie normy L2.;1
+Metoda bisekcji zbiega znacznie szybciej niż metoda Newtona, osiągając zazwyczaj zbieżność wykładniczą.;0
+Algorytm numerycznie stabilny to taki, który nie dopuszcza do nadmiernej kumulacji błędów.;1
+Równania sztywne to typ równań różniczkowych, które można bez problemu rozwiązywać metodą Eulera z dużym krokiem.;0
+Metoda Rungego-Kutty wykorzystuje średnią ważoną wartości funkcji w kilku punktach przedziału do wyznaczenia kolejnego kroku.;1
+Norma macierzowa spektralna jest zdefiniowana jako suma modułów wszystkich elementów macierzy.;0
+Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową O(n^3).;1
+Wielomian interpolacyjny Lagrange'a dla n+1 węzłów jest zawsze wielomianem stopnia n+1.;0
+Metoda Gaussa-Seidela wymaga, aby macierz układu była np. silnie diagonalnie dominująca dla zagwarantowania zbieżności.;1
+Błędy danych wejściowych i błędy zaokrągleń nie mają żadnego wpływu na wynik końcowy w algorytmach stabilnych numerycznie.;0
+Zbieżność z prawdopodobieństwem 1 nie gwarantuje zbieżności według prawdopodobieństwa.;0
+Dystrybuanta zmiennej losowej jest funkcją prawostronnie ciągłą.;1
+W schemacie Bernoulliego prawdopodobieństwo sukcesu w każdej próbie musi być takie samo.;1
+Z twierdzenia Poissona wynika, że rozkład dwumianowy zbiega do normalnego, gdy prawdopodobieństwo sukcesu dąży do zera.;0
+Dla funkcji wypukłej g nierówność Jensena przyjmuje postać g(E[X]) >= E[g(X)].;0
+Centralne Twierdzenie Graniczne zakłada, że sumowane zmienne losowe mogą mieć nieskończoną wariancję.;0
+Wzór Bayesa pozwala na odwrócenie warunkowania, czyli obliczenie P(A|B) znając P(B|A).;1
+Dystrybuanta rozkładu singularnego (np. funkcja Cantora) jest funkcją schodkową (nieciągłą).;0
+Niezależność zmiennych losowych nie gwarantuje, że ich kowariancja wynosi 0.;0
+Sigma-ciało generowane przez rodzinę zbiorów to największe sigma-ciało zawierające tę rodzinę.;0
+Metoda Newtona dla pierwiastków jednokrotnych charakteryzuje się zazwyczaj zbieżnością liniową.;0
+Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową rzędu O(n log n).;0
+Metoda Newtona jest zazwyczaj szybsza w bliskim sąsiedztwie pierwiastka niż metoda bisekcji.;1
+Metoda Eulera jest uznawana za metodę wysokiego rzędu dokładności, idealną do precyzyjnych symulacji.;0
+Standard IEEE 754 definiuje wyłącznie reprezentację liczb całkowitych w systemie komputerowym.;0
+Interpolacja polega na znalezieniu funkcji, która w zadanych węzłach przyjmuje określone wartości.;1
+Algorytm numerycznie stabilny to taki, w którym błędy zaokrągleń rosną wykładniczo w trakcie obliczeń.;0
+Kwadratury Newtona-Cotesa opierają się na węzłach rozmieszczonych w równych odstępach.;1
+Koszt eliminacji Gaussa dla pełnej macierzy rośnie sześciennie wraz z jej rozmiarem.;1
+Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posiadają ciągłych pochodnych.;0
