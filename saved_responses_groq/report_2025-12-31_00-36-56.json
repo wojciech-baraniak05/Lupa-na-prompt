@@ -1,0 +1,32 @@
+{
+  "Model": "LLaMA 3.3 70B (Groq)",
+  "Dataset_Size": 20,
+  "Strategies_Count": 12,
+  "Timestamp": "2025-12-31_00-36-56",
+  "Metrics": {
+    "Best_Strategy": {
+      "Name": "Chain_of_thoughts",
+      "Accuracy": 0.75,
+      "F1": 0.8
+    },
+    "Worst_Strategy": {
+      "Name": "Scrambled_prompt",
+      "Accuracy": 0.0,
+      "F1": 0.0
+    },
+    "Average_Accuracy": 0.6083333333333333,
+    "Average_F1": 0.6751037542704209
+  },
+  "Hallucinations": {
+    "Prompts_With_Conflict": 9,
+    "Conflict_Percentage": 45.0,
+    "Average_Variability": 0.168210021576415,
+    "Max_Variability": 0.49792959773196915
+  },
+  "Output_Files": {
+    "Ranking": "saved_responses_groq\\ranking_strategies_2025-12-31_00-36-56.csv",
+    "Transition_Matrix": "saved_responses_groq\\transition_matrix_2025-12-31_00-36-56.csv",
+    "Risk_Indicators": "saved_responses_groq\\risk_indicators_2025-12-31_00-36-56.csv",
+    "Hallucination_Cases": "saved_responses_groq\\hallucination_cases_2025-12-31_00-36-56.csv"
+  }
+}
