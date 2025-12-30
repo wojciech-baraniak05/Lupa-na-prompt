@@ -17,6 +17,7 @@ dependencies = [
     "pandas>=2.3.3",
     "pymupdf-layout>=1.26.6",
     "pymupdf4llm>=0.2.7",
+    "python-dotenv>=1.2.1",
     "streamlit>=1.52.2",
     "torch>=2.9.1",
     "transformers>=4.57.3",
