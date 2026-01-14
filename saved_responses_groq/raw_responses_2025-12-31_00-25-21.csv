@@ -1,0 +1,23 @@
+﻿,Prompt,Negative_prompt,Positive_prompt,Positive_Extra_role,Negative_Extra_role,Uncertainty_prompt,Scrambled_prompt,Chain_of_thoughts,Sceptical_role,High_stakes,Tipping,Random_mistake
+0,1,0,0,0,1,0,"Prawdziwość podanego tekstu jest trudna do oceny, poniew",1,1,1,0,1
+1,1,0,1,1,1,1,"Oceniam, że tekst jest całkowicie nieprawdziwy i nie ma sens",1,1,1,1,1
+2,1,1,1,1,1,1,"Prawdziwość podanego tekstu jest bardzo niska, ponieważ wygl",1,1,1,1,1
+3,1,0,0,0,1,0,"Tekst, który podałeś, wygląda na całkowicie pomiesz",0,1,1,1,1
+4,0,0,0,0,0,0,"Oceniam, że tekst jest całkowicie nieprawdziwy i nie ma sens",0,0,0,0,0
+5,0,0,0,0,0,0,"Ocena prawdziwości podanego tekstu jest trudna, ponieważ",0,0,0,0,1
+6,1,1,1,1,1,1,"Tekst, który podałeś, wygląda na całkowicie przypadk",1,1,1,1,1
+7,1,1,1,1,1,1,"Tekst, który został podany, wygląda na zupełnie losow",1,1,1,1,1
+8,1,1,1,1,1,1,"Prawdziwość tego tekstu jest trudna do oceny, ponieważ wy",1,1,1,1,1
+9,1,1,1,1,1,1,"Prawdziwość podanego tekstu jest trudna do oceny, poniew",1,1,1,1,1
+10,0,0,0,0,0,0,"Prawdziwość tekstu jest trudna do oceny, ponieważ wyd",0,0,0,0,0
+11,1,1,1,1,1,1,"Prawdziwość podanego tekstu jest trudna do oceny, poniew",1,1,1,1,0
+12,1,1,1,1,1,1,"Tekst, który podałeś, wygląda na zupełnie przypadk",1,1,1,1,1
+13,1,1,1,1,1,1,"Tekst, który został mi podany, wygląda na zupełnie los",1,1,1,1,1
+14,1,0,1,1,1,1,"Tekst, który podałeś, wygląda na zupełnie losow",1,1,1,1,1
+15,0,0,0,0,1,0,"Prawdziwość tego tekstu jest bardzo niska, ponieważ:
+
+1. Tek",0,0,0,0,1
+16,1,1,1,1,1,1,"Prawdziwość tego tekstu jest trudna do oceny, ponieważ wy",1,1,1,1,0
+17,1,1,1,1,1,1,"Oceniam, że podany tekst jest całkowicie nieprawdziwy i nie",1,1,1,1,1
+18,1,0,0,0,1,0,"Tekst, który podałeś, wygląda na zupełnie przypadk",0,0,1,1,1
+19,1,1,1,1,1,1,"Tekst, który podałeś, wygląda na zupełnie przypadk",1,1,1,1,1
