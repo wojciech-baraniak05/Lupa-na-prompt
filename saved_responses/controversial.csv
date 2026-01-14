@@ -1,0 +1,68 @@
+﻿Idx,Prompt,True,Std
+0,"Przecięcie dowolnej, nawet nieprzeliczalnej rodziny sigma-ciał jest zawsze sigma...",1,0.5222329678670935
+8,"Wariancja przekształcenia liniowego aX+b wynosi a * Var[X]. 
+Zacznij odpowiedź o...",0,0.5222329678670935
+15,"Funkcja charakterystyczna zmiennej losowej istnieje tylko wtedy, gdy zmienna ta ...",0,0.5222329678670935
+12,Zbieżność z prawdopodobieństwem 1 implikuje zbieżność według prawdopodobieństwa....,1,0.5222329678670935
+24,Rozkład LU polega na przedstawieniu macierzy w postaci iloczynu macierzy dolnotr...,1,0.5222329678670935
+41,"Dystrybuanta zmiennej losowej jest funkcją prawostronnie ciągłą. 
+Zacznij odpowi...",1,0.5222329678670935
+6,"Dystrybuanta zmiennej losowej jest funkcją niemalejącą i lewostronnie ciągłą. 
+Z...",0,0.5149286505444373
+25,Błąd obcięcia jest tożsamy z błędem zaokrąglenia i wynika wyłącznie z reprezenta...,0,0.5149286505444373
+57,Kwadratury Newtona-Cotesa opierają się na węzłach rozmieszczonych w równych odst...,1,0.5149286505444373
+59,"Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posi...",0,0.5149286505444373
+32,"Algorytm numerycznie stabilny to taki, który nie dopuszcza do nadmiernej kumulac...",1,0.5149286505444373
+1,Skończona addytywność prawdopodobieństwa jest warunkiem silniejszym niż przelicz...,0,0.5149286505444373
+34,Metoda Rungego-Kutty wykorzystuje średnią ważoną wartości funkcji w kilku punkta...,1,0.49236596391733095
+42,W schemacie Bernoulliego prawdopodobieństwo sukcesu w każdej próbie musi być tak...,1,0.49236596391733095
+44,"Dla funkcji wypukłej g nierówność Jensena przyjmuje postać g(E[X]) >= E[g(X)]. 
+...",0,0.49236596391733095
+43,"Z twierdzenia Poissona wynika, że rozkład dwumianowy zbiega do normalnego, gdy p...",0,0.49236596391733095
+49,Sigma-ciało generowane przez rodzinę zbiorów to największe sigma-ciało zawierają...,0,0.49236596391733095
+53,"Metoda Eulera jest uznawana za metodę wysokiego rzędu dokładności, idealną do pr...",0,0.49236596391733095
+48,"Niezależność zmiennych losowych nie gwarantuje, że ich kowariancja wynosi 0. 
+Za...",0,0.49236596391733095
+46,"Wzór Bayesa pozwala na odwrócenie warunkowania, czyli obliczenie P(A|B) znając P...",1,0.49236596391733095
+18,"Warunkowa wartość oczekiwana E[X|Y] jest liczbą rzeczywistą, a nie zmienną losow...",0,0.49236596391733095
+22,"Metoda bisekcji gwarantuje znalezienie pierwiastka w zadanym przedziale, o ile f...",1,0.45226701686664544
+20,Metoda Newtona-Raphsona dla pierwiastków jednokrotnych charakteryzuje się zbieżn...,1,0.45226701686664544
+13,Zbieżność według prawdopodobieństwa implikuje zbieżność z prawdopodobieństwem 1....,0,0.45226701686664544
+26,Metoda Eulera rozwiązywania równań różniczkowych jest metodą o wolnej zbieżności...,1,0.45226701686664544
+3,"Zbiór Vitaliego jest przykładem zbioru, który jest borelowski, ale nie jest mier...",0,0.45226701686664544
+17,"Centralne Twierdzenie Graniczne orzeka, że sumy niezależnych zmiennych losowych ...",1,0.45226701686664544
+2,"Jeśli ciąg zdarzeń jest wstępujący, to prawdopodobieństwo sumy jest granicą praw...",1,0.45226701686664544
+47,Dystrybuanta rozkładu singularnego (np. funkcja Cantora) jest funkcją schodkową ...,0,0.45226701686664544
+51,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością oblicz...,0,0.45226701686664544
+40,Zbieżność z prawdopodobieństwem 1 nie gwarantuje zbieżności według prawdopodobie...,0,0.45226701686664544
+14,"MPWL Kołmogorowa (I) zachodzi, jeśli zbieżny jest szereg sumy wariancji dzielony...",1,0.45226701686664544
+50,Metoda Newtona dla pierwiastków jednokrotnych charakteryzuje się zazwyczaj zbież...,0,0.45226701686664544
+37,Wielomian interpolacyjny Lagrange'a dla n+1 węzłów jest zawsze wielomianem stopn...,0,0.45226701686664544
+38,"Metoda Gaussa-Seidela wymaga, aby macierz układu była np. silnie diagonalnie dom...",1,0.45226701686664544
+30,Aproksymacja średniokwadratowa ma na celu minimalizację błędu zdefiniowanego w s...,1,0.38924947208076155
+27,"Rozkład LU macierzy istnieje zawsze, nawet jeśli na głównej przekątnej występują...",0,0.38924947208076155
+58,Koszt eliminacji Gaussa dla pełnej macierzy rośnie sześciennie wraz z jej rozmia...,1,0.3892494720807615
+9,"Jeśli zmienne losowe są niezależne, to ich kowariancja wynosi 0. 
+Zacznij odpowi...",1,0.38924947208076144
+7,"Jeśli funkcja g jest wypukła, to nierówność Jensena orzeka, że g(E[X]) <= E[g(X)...",1,0.38924947208076144
+55,"Interpolacja polega na znalezieniu funkcji, która w zadanych węzłach przyjmuje o...",1,0.38924947208076144
+52,Metoda Newtona jest zazwyczaj szybsza w bliskim sąsiedztwie pierwiastka niż meto...,1,0.38924947208076144
+11,Macierz kowariancji wektora losowego jest zawsze symetryczna i nieujemnie określ...,1,0.38924947208076144
+21,Złożoność obliczeniowa algorytmu eliminacji Gaussa dla układu n równań wynosi O(...,0,0.38924947208076144
+36,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością oblicz...,1,0.38924947208076144
+45,"Centralne Twierdzenie Graniczne zakłada, że sumowane zmienne losowe mogą mieć ni...",0,0.28867513459481287
+33,"Równania sztywne to typ równań różniczkowych, które można bez problemu rozwiązyw...",0,0.28867513459481287
+19,"Jeśli wektor losowy (X,Y) ma rozkład normalny i Cov(X,Y)=0, to zmienne X i Y są ...",1,0.28867513459481287
+4,"Jeśli zdarzenia A, B i C są parami niezależne, to muszą być również wzajemnie ni...",0,0.28867513459481287
+5,"Pierwszy Lemat Borela-Cantellego mówi, że jeśli suma prawdopodobieństw zdarzeń j...",1,0.28867513459481287
+16,"Jeśli funkcja generująca momenty istnieje w otoczeniu zera, to wyznacza ona rozk...",1,0.28867513459481287
+28,Standard IEEE 754 dotyczy reprezentacji binarnej i operacji na liczbach zmiennop...,1,0.28867513459481287
+35,Norma macierzowa spektralna jest zdefiniowana jako suma modułów wszystkich eleme...,0,0.28867513459481287
+31,"Metoda bisekcji zbiega znacznie szybciej niż metoda Newtona, osiągając zazwyczaj...",0,0.28867513459481287
+23,Wskaźnik uwarunkowania macierzy informuje jedynie o czasie potrzebnym na wykonan...,0,0.0
+10,"Brak korelacji między zmiennymi losowymi zawsze implikuje ich niezależność. 
+Zac...",0,0.0
+39,Błędy danych wejściowych i błędy zaokrągleń nie mają żadnego wpływu na wynik koń...,0,0.0
+29,"Metoda Jacobiego jest zbieżna dla dowolnej macierzy nieosobliwej, niezależnie od...",0,0.0
+54,Standard IEEE 754 definiuje wyłącznie reprezentację liczb całkowitych w systemie...,0,0.0
+56,"Algorytm numerycznie stabilny to taki, w którym błędy zaokrągleń rosną wykładnic...",0,0.0

@@ -1,0 +1,13 @@
+﻿Strategy,Accuracy
+Sceptical_role,0.65
+Prompt,0.6
+Chain_of_thoughts,0.6
+High_stakes,0.6
+Random_mistake,0.6
+Tipping,0.6
+Uncertainty_prompt,0.5833333333333334
+Negative_Extra_role,0.5833333333333334
+Negative_prompt,0.55
+Positive_prompt,0.55
+Scrambled_prompt,0.5333333333333333
+Positive_Extra_role,0.5
