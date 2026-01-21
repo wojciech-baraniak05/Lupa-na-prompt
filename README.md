@@ -1,5 +1,5 @@
 # Lupa na Prompt - Analiza wpływu zmian promptu na odpowiedzi LLM
-
+W projekcie LLM służy do badania jak zmiany w promptach mogą wpłynąć na zmianę odpowiedzi. 
 ## Jak uruchomić projekt?
 
 ### Inicjalizacja środowiska
@@ -27,25 +27,23 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### Uruchamianie aplikacji Streamlit
 
-**Strona Gemma (strona_gemma.py):**
+**Dashboard porównawczy (Gemma vs LLaMA):**
 ```powershell
 # Upewnij się, że środowisko jest aktywne
 .\.venv\Scripts\Activate.ps1
 
 # Uruchom aplikację Streamlit
-streamlit run strona_gemma.py
+streamlit run strona.py
 ```
 
 Aplikacja otworzy się automatycznie w przeglądarce pod adresem `http://localhost:8501`
 
 ### Struktura projektu
 
-- `gemma_generation.ipynb` - Generowanie odpowiedzi za pomocą modelu Gemma
-- `analysis_patterns.ipynb` - Analiza wzorców odpowiedzi
-- `analysis_patterns_groq.ipynb` - Analiza wzorców dla modelu Groq
-- `strona_gemma.py` - Interaktywny dashboard Streamlit z wynikami
-- `prompts.csv` / `prompts2.csv` - Dane wejściowe z promptami
-- `saved_responses/` - Zapisane odpowiedzi modeli
-- `saved_responses_groq/` - Zapisane odpowiedzi modeli Groq
-- `results_gemini/` - Wyeksportowane wyniki analiz
+- `gemma_generation.ipynb` / `llama_generation.ipynb` - Generowanie odpowiedzi dla modeli
+- `analysis_patterns.ipynb` / `analysis_patterns_llama.ipynb` - Analiza wzorców odpowiedzi
+- `strona.py` - Główny, łączony dashboard Streamlit (Gemma vs LLaMA)
+- `prompts2.csv` - Dane wejściowe z promptami
+- `saved_responses/` oraz `saved_responses_llama/` - Zapisane odpowiedzi modeli
+- `results_gemini/` oraz `results_llama/` - Wyeksportowane wyniki analiz
 

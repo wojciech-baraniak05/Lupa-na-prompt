@@ -524,6 +524,51 @@ with tab5:
 
     max_idx = max(len(models_data['gemma']['prompts']), len(models_data['llama']['prompts'])) - 1
 
+    # Calculate interesting cases
+    @st.cache_data
+    def find_interesting_cases(parsed_df, raw_df, y_true):
+        cases = []
+        for idx in range(len(parsed_df)):
+            row = parsed_df.iloc[idx].dropna()
+            if len(row) == 0:
+                continue
+            
+            true_val = y_true[idx]
+            mistakes = (row != true_val).sum()
+            total = len(row)
+            
+            # False positives: predicted 1 when true is 0
+            # False negatives: predicted 0 when true is 1
+            if true_val == 0:
+                fp_count = (row == 1).sum()
+                fn_count = 0
+            else:
+                fp_count = 0
+                fn_count = (row == 0).sum()
+            
+            fp_rate = fp_count / total if total > 0 else 0
+            fn_rate = fn_count / total if total > 0 else 0
+            
+            # Answer length variance
+            raw_row = raw_df.iloc[idx]
+            lengths = [len(str(ans)) for ans in raw_row.dropna() if isinstance(ans, str)]
+            length_std = np.std(lengths) if len(lengths) > 1 else 0
+            
+            cases.append({
+                'Idx': idx,
+                'Mistakes': mistakes,
+                'FP_Rate': fp_rate,
+                'FN_Rate': fn_rate,
+                'Length_Std': length_std,
+                'Std': row.std()
+            })
+        
+        df = pd.DataFrame(cases)
+        return df
+
+    gemma_cases = find_interesting_cases(gemma_parsed, models_data['gemma']['raw'], gemma_parsed['Flag'].values)
+    llama_cases = find_interesting_cases(llama_parsed, models_data['llama']['raw'], llama_parsed['Flag'].values)
+
     st.write("**Ustawienia**")
     control_col = st.container()
     with control_col:
@@ -539,19 +584,45 @@ with tab5:
             )
             st.session_state.case_study_idx = selected_idx
         with col_ctrl2:
-            st.caption("Podpowiedzi: Top zmienność")
-            top_5_g = gemma_var.head(5)
-            top_5_l = llama_var.head(5)
-            cols = st.columns(5)
-            for i, case in top_5_g.reset_index(drop=True).iterrows():
-                if cols[i].button(f"G#{int(case['Idx'])}\n(std {case['Std']:.2f})", key=f"g_top_{i}"):
-                    st.session_state.case_study_idx = int(case['Idx'])
-                    st.rerun()
-            cols = st.columns(5)
-            for i, case in top_5_l.reset_index(drop=True).iterrows():
-                if cols[i].button(f"L#{int(case['Idx'])}\n(std {case['Std']:.2f})", key=f"l_top_{i}"):
-                    st.session_state.case_study_idx = int(case['Idx'])
-                    st.rerun()
+            st.caption("Ciekawe przypadki:")
+            
+            # Combine both models' metrics
+            combined_mistakes = gemma_cases.sort_values('Mistakes', ascending=False).head(3)
+            combined_fp = gemma_cases.sort_values('FP_Rate', ascending=False).head(3)
+            combined_fn = gemma_cases.sort_values('FN_Rate', ascending=False).head(3)
+            combined_length = gemma_cases.sort_values('Length_Std', ascending=False).head(3)
+            
+            col_a, col_b = st.columns(2)
+            with col_a:
+                st.markdown("**Najwięcej błędów (G)**")
+                for i, case in combined_mistakes.iterrows():
+                    if st.button(f"#{int(case['Idx'])} ({int(case['Mistakes'])} błędów)", key=f"g_mistakes_{i}", use_container_width=True):
+                        st.session_state.case_study_idx = int(case['Idx'])
+                        st.rerun()
+                
+                st.markdown("**False Positive (G)**")
+                for i, case in combined_fp.iterrows():
+                    if case['FP_Rate'] > 0:
+                        if st.button(f"#{int(case['Idx'])} (FP {case['FP_Rate']:.1%})", key=f"g_fp_{i}", use_container_width=True):
+                            st.session_state.case_study_idx = int(case['Idx'])
+                            st.rerun()
+            
+            with col_b:
+                st.markdown("**False Negative (L)**")
+                combined_fn_l = llama_cases.sort_values('FN_Rate', ascending=False).head(3)
+                for i, case in combined_fn_l.iterrows():
+                    if case['FN_Rate'] > 0:
+                        if st.button(f"#{int(case['Idx'])} (FN {case['FN_Rate']:.1%})", key=f"l_fn_{i}", use_container_width=True):
+                            st.session_state.case_study_idx = int(case['Idx'])
+                            st.rerun()
+                
+                st.markdown("**Rozbieżność długości (L)**")
+                combined_length_l = llama_cases.sort_values('Length_Std', ascending=False).head(3)
+                for i, case in combined_length_l.iterrows():
+                    if case['Length_Std'] > 0:
+                        if st.button(f"#{int(case['Idx'])} (σ={case['Length_Std']:.0f})", key=f"l_length_{i}", use_container_width=True):
+                            st.session_state.case_study_idx = int(case['Idx'])
+                            st.rerun()
 
         st.write("**Strategie**")
         col_strat1, col_strat2 = st.columns(2)

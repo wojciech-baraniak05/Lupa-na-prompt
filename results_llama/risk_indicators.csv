@@ -1,0 +1,14 @@
+Strategy,Hallucination_Risk,Base_Accuracy
+Prompt,1.0,0.5
+Positive_prompt,1.0,0.5
+Positive_Extra_role,1.0,0.6333333333333333
+Negative_Extra_role,1.0,0.6166666666666667
+Chain_of_thoughts,1.0,0.5666666666666667
+Tipping,1.0,0.55
+Negative_prompt,0.0,0.6166666666666667
+Scrambled_prompt,0.0,0.5333333333333333
+Uncertainty_prompt,0.0,0.5833333333333334
+Sceptical_role,0.0,0.55
+High_stakes,0.0,0.55
+Random_mistake,0.0,0.5166666666666667
+Flag,0.0,1.0

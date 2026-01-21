@@ -231,9 +231,14 @@ class DataModel:
 
         def parse_single_response(text):
             if not isinstance(text, str):
-                return None
+                return 0
             
-            if (self.positive_response in text) or (pos_clean in text):
+            # Strip whitespace and convert to lowercase for matching
+            text_normalized = text.strip().lower()
+            pos_normalized = self.positive_response.strip().lower()
+            pos_clean_normalized = pos_clean.strip().lower()
+            
+            if (pos_normalized in text_normalized) or (pos_clean_normalized in text_normalized):
                 return 1
             else:
                 return 0

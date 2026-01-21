@@ -1,0 +1,2 @@
+Idx,Prompt,True,Unique_Preds,Has_Conflict,Std,Consensus,Hallucination_Risk,Error_Rate
+59,"Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posiadają ciągłych pochodnych.",0,2,True,0.5188745216627709,WEAK,True,0.46153846153846156

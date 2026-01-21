@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "model": "Llama 3.2 3B",
+    "dataset_size": 60,
+    "n_strategies": 13
+  },
+  "summary": {
+    "best_strategy": "Flag",
+    "best_accuracy": 1.0,
+    "worst_strategy": "Prompt",
+    "worst_accuracy": 0.5,
+    "baseline_accuracy": 0.5,
+    "cases_with_conflict": 59,
+    "conflict_percentage": 98.33333333333333
+  },
+  "patterns": [
+    "Dodanie 'Role-Playing (Expert)' -> zwiększa accuracy o 13.3pp",
+    "Dodanie 'Role-Playing (Dummy)' -> zwiększa accuracy o 11.7pp",
+    "Dodanie 'Negative Framing' -> zwiększa accuracy o 11.7pp",
+    "Dodanie 'Uncertainty' -> zwiększa accuracy o 8.3pp",
+    "Dodanie 'Chain-of-Thought' -> zwiększa accuracy o 6.7pp",
+    "Dodanie 'Incentive' -> zwiększa accuracy o 5.0pp",
+    "Dodanie 'Scepticism' -> zwiększa accuracy o 5.0pp",
+    "Dodanie 'Scramble/Noise' -> zwiększa accuracy o 2.5pp"
+  ],
+  "recommendations": {
+    "best_practices": [
+      "Chain-of-Thought",
+      "Expert Role",
+      "Positive Framing"
+    ],
+    "avoid": [
+      "Scramble",
+      "Negative Role",
+      "Uncertainty without CoT"
+    ]
+  }
+}
