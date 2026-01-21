@@ -1,2 +1,9 @@
 Idx,Prompt,True,Unique_Preds,Has_Conflict,Std,Consensus,Hallucination_Risk,Error_Rate
-59,"Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posiadają ciągłych pochodnych.",0,2,True,0.5188745216627709,WEAK,True,0.46153846153846156
+6,Dystrybuanta zmiennej losowej jest funkcją niemalejącą i lewostronnie ciągłą.,0,2,True,0.5222329678670935,WEAK,True,0.5454545454545454
+19,"Jeśli wektor losowy (X,Y) ma rozkład normalny i Cov(X,Y)=0, to zmienne X i Y są niezależne.",1,2,True,0.5222329678670935,WEAK,True,0.4545454545454546
+13,Zbieżność według prawdopodobieństwa implikuje zbieżność z prawdopodobieństwem 1.,0,2,True,0.5222329678670935,WEAK,True,0.5454545454545454
+12,Zbieżność z prawdopodobieństwem 1 implikuje zbieżność według prawdopodobieństwa.,1,2,True,0.5222329678670935,WEAK,True,0.4545454545454546
+27,"Rozkład LU macierzy istnieje zawsze, nawet jeśli na głównej przekątnej występują zera (bez konieczności permutacji).",0,2,True,0.5222329678670935,WEAK,True,0.5454545454545454
+55,"Interpolacja polega na znalezieniu funkcji, która w zadanych węzłach przyjmuje określone wartości.",1,2,True,0.5222329678670935,WEAK,True,0.4545454545454546
+42,W schemacie Bernoulliego prawdopodobieństwo sukcesu w każdej próbie musi być takie samo.,1,2,True,0.5222329678670935,WEAK,True,0.4545454545454546
+43,"Z twierdzenia Poissona wynika, że rozkład dwumianowy zbiega do normalnego, gdy prawdopodobieństwo sukcesu dąży do zera.",0,2,True,0.5222329678670935,WEAK,True,0.5454545454545454

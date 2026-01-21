@@ -2,26 +2,23 @@
   "metadata": {
     "model": "Llama 3.2 3B",
     "dataset_size": 60,
-    "n_strategies": 13
+    "n_strategies": 11
   },
   "summary": {
-    "best_strategy": "Flag",
-    "best_accuracy": 1.0,
-    "worst_strategy": "Prompt",
+    "best_strategy": "Positive_Extra_role",
+    "best_accuracy": 0.6333333333333333,
+    "worst_strategy": "Positive_prompt",
     "worst_accuracy": 0.5,
     "baseline_accuracy": 0.5,
-    "cases_with_conflict": 59,
-    "conflict_percentage": 98.33333333333333
+    "cases_with_conflict": 57,
+    "conflict_percentage": 95.0
   },
   "patterns": [
-    "Dodanie 'Role-Playing (Expert)' -> zwiększa accuracy o 13.3pp",
-    "Dodanie 'Role-Playing (Dummy)' -> zwiększa accuracy o 11.7pp",
-    "Dodanie 'Negative Framing' -> zwiększa accuracy o 11.7pp",
-    "Dodanie 'Uncertainty' -> zwiększa accuracy o 8.3pp",
-    "Dodanie 'Chain-of-Thought' -> zwiększa accuracy o 6.7pp",
-    "Dodanie 'Incentive' -> zwiększa accuracy o 5.0pp",
-    "Dodanie 'Scepticism' -> zwiększa accuracy o 5.0pp",
-    "Dodanie 'Scramble/Noise' -> zwiększa accuracy o 2.5pp"
+    "Dodanie 'Role-Playing (Expert)' -> zwiększa accuracy o 6.8pp",
+    "Dodanie 'Role-Playing (Dummy)' -> zwiększa accuracy o 5.2pp",
+    "Dodanie 'Negative Framing' -> zwiększa accuracy o 5.2pp",
+    "Dodanie 'Scramble/Noise' -> zmniejsza accuracy o 4.0pp",
+    "Dodanie 'Positive Framing' -> zmniejsza accuracy o 6.5pp"
   ],
   "recommendations": {
     "best_practices": [

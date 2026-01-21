@@ -1,61 +1,61 @@
 Idx,Prompt,True,Unique_Preds,Has_Conflict,Std,Consensus
-59,"Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posiadają ciągłych pochodnych.",0,2,True,0.5188745216627709,WEAK
-3,"Zbiór Vitaliego jest przykładem zbioru, który jest borelowski, ale nie jest mierzalny w sensie Lebesgue'a.",0,2,True,0.5188745216627708,WEAK
-9,"Jeśli zmienne losowe są niezależne, to ich kowariancja wynosi 0.",1,2,True,0.5188745216627708,WEAK
-6,Dystrybuanta zmiennej losowej jest funkcją niemalejącą i lewostronnie ciągłą.,0,2,True,0.5188745216627708,WEAK
-20,Metoda Newtona-Raphsona dla pierwiastków jednokrotnych charakteryzuje się zbieżnością kwadratową.,1,2,True,0.5188745216627708,WEAK
-16,"Jeśli funkcja generująca momenty istnieje w otoczeniu zera, to wyznacza ona rozkład zmiennej losowej jednoznacznie.",1,2,True,0.5188745216627708,WEAK
-27,"Rozkład LU macierzy istnieje zawsze, nawet jeśli na głównej przekątnej występują zera (bez konieczności permutacji).",0,2,True,0.5188745216627708,WEAK
-22,"Metoda bisekcji gwarantuje znalezienie pierwiastka w zadanym przedziale, o ile funkcja jest ciągła i ma różne znaki na krańcach.",1,2,True,0.5188745216627708,WEAK
-14,"MPWL Kołmogorowa (I) zachodzi, jeśli zbieżny jest szereg sumy wariancji dzielonych przez n^2.",1,2,True,0.5188745216627708,WEAK
-43,"Z twierdzenia Poissona wynika, że rozkład dwumianowy zbiega do normalnego, gdy prawdopodobieństwo sukcesu dąży do zera.",0,2,True,0.5188745216627708,WEAK
-32,"Algorytm numerycznie stabilny to taki, który nie dopuszcza do nadmiernej kumulacji błędów.",1,2,True,0.5188745216627708,WEAK
-13,Zbieżność według prawdopodobieństwa implikuje zbieżność z prawdopodobieństwem 1.,0,2,True,0.5188745216627708,WEAK
-53,"Metoda Eulera jest uznawana za metodę wysokiego rzędu dokładności, idealną do precyzyjnych symulacji.",0,2,True,0.5188745216627708,WEAK
-45,"Centralne Twierdzenie Graniczne zakłada, że sumowane zmienne losowe mogą mieć nieskończoną wariancję.",0,2,True,0.5188745216627708,WEAK
-52,Metoda Newtona jest zazwyczaj szybsza w bliskim sąsiedztwie pierwiastka niż metoda bisekcji.,1,2,True,0.5188745216627708,WEAK
-46,"Wzór Bayesa pozwala na odwrócenie warunkowania, czyli obliczenie P(A|B) znając P(B|A).",1,2,True,0.5188745216627708,WEAK
-38,"Metoda Gaussa-Seidela wymaga, aby macierz układu była np. silnie diagonalnie dominująca dla zagwarantowania zbieżności.",1,2,True,0.5188745216627708,WEAK
-57,Kwadratury Newtona-Cotesa opierają się na węzłach rozmieszczonych w równych odstępach.,1,2,True,0.5188745216627708,WEAK
-49,Sigma-ciało generowane przez rodzinę zbiorów to największe sigma-ciało zawierające tę rodzinę.,0,2,True,0.5063696835418333,WEAK
-55,"Interpolacja polega na znalezieniu funkcji, która w zadanych węzłach przyjmuje określone wartości.",1,2,True,0.5063696835418333,WEAK
-58,Koszt eliminacji Gaussa dla pełnej macierzy rośnie sześciennie wraz z jej rozmiarem.,1,2,True,0.5063696835418333,WEAK
-54,Standard IEEE 754 definiuje wyłącznie reprezentację liczb całkowitych w systemie komputerowym.,0,2,True,0.5063696835418333,WEAK
-42,W schemacie Bernoulliego prawdopodobieństwo sukcesu w każdej próbie musi być takie samo.,1,2,True,0.5063696835418333,WEAK
-36,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową O(n^3).,1,2,True,0.5063696835418333,WEAK
-37,Wielomian interpolacyjny Lagrange'a dla n+1 węzłów jest zawsze wielomianem stopnia n+1.,0,2,True,0.5063696835418333,WEAK
-19,"Jeśli wektor losowy (X,Y) ma rozkład normalny i Cov(X,Y)=0, to zmienne X i Y są niezależne.",1,2,True,0.5063696835418333,WEAK
-12,Zbieżność z prawdopodobieństwem 1 implikuje zbieżność według prawdopodobieństwa.,1,2,True,0.5063696835418333,WEAK
-21,Złożoność obliczeniowa algorytmu eliminacji Gaussa dla układu n równań wynosi O(n^2).,0,2,True,0.5063696835418333,WEAK
-40,Zbieżność z prawdopodobieństwem 1 nie gwarantuje zbieżności według prawdopodobieństwa.,0,2,True,0.48038446141526137,WEAK
-41,Dystrybuanta zmiennej losowej jest funkcją prawostronnie ciągłą.,1,2,True,0.48038446141526137,WEAK
-47,Dystrybuanta rozkładu singularnego (np. funkcja Cantora) jest funkcją schodkową (nieciągłą).,0,2,True,0.48038446141526137,WEAK
-2,"Jeśli ciąg zdarzeń jest wstępujący, to prawdopodobieństwo sumy jest granicą prawdopodobieństw.",1,2,True,0.48038446141526137,WEAK
-18,"Warunkowa wartość oczekiwana E[X|Y] jest liczbą rzeczywistą, a nie zmienną losową.",0,2,True,0.48038446141526137,WEAK
-15,"Funkcja charakterystyczna zmiennej losowej istnieje tylko wtedy, gdy zmienna ta ma skończone momenty wszystkich rzędów.",0,2,True,0.48038446141526137,WEAK
-26,Metoda Eulera rozwiązywania równań różniczkowych jest metodą o wolnej zbieżności i niskim rzędzie dokładności.,1,2,True,0.48038446141526137,WEAK
-1,Skończona addytywność prawdopodobieństwa jest warunkiem silniejszym niż przeliczalna addytywność.,0,2,True,0.48038446141526137,WEAK
-4,"Jeśli zdarzenia A, B i C są parami niezależne, to muszą być również wzajemnie niezależne.",0,2,True,0.48038446141526137,WEAK
-5,"Pierwszy Lemat Borela-Cantellego mówi, że jeśli suma prawdopodobieństw zdarzeń jest skończona, to z prawdopodobieństwem 1 zajdzie skończenie wiele tych zdarzeń.",1,2,True,0.48038446141526137,WEAK
-0,"Przecięcie dowolnej, nawet nieprzeliczalnej rodziny sigma-ciał jest zawsze sigma-ciałem.",1,2,True,0.4385290096535146,WEAK
-50,Metoda Newtona dla pierwiastków jednokrotnych charakteryzuje się zazwyczaj zbieżnością liniową.,0,2,True,0.4385290096535146,WEAK
-10,Brak korelacji między zmiennymi losowymi zawsze implikuje ich niezależność.,0,2,True,0.4385290096535146,WEAK
-8,Wariancja przekształcenia liniowego aX+b wynosi a * Var[X].,0,2,True,0.4385290096535146,WEAK
-11,Macierz kowariancji wektora losowego jest zawsze symetryczna i nieujemnie określona.,1,2,True,0.4385290096535146,WEAK
-25,Błąd obcięcia jest tożsamy z błędem zaokrąglenia i wynika wyłącznie z reprezentacji liczb w komputerze.,0,2,True,0.4385290096535146,WEAK
-39,Błędy danych wejściowych i błędy zaokrągleń nie mają żadnego wpływu na wynik końcowy w algorytmach stabilnych numerycznie.,0,2,True,0.4385290096535146,WEAK
-28,Standard IEEE 754 dotyczy reprezentacji binarnej i operacji na liczbach zmiennoprzecinkowych.,1,2,True,0.4385290096535146,WEAK
-34,Metoda Rungego-Kutty wykorzystuje średnią ważoną wartości funkcji w kilku punktach przedziału do wyznaczenia kolejnego kroku.,1,2,True,0.4385290096535146,WEAK
-30,Aproksymacja średniokwadratowa ma na celu minimalizację błędu zdefiniowanego w sensie normy L2.,1,2,True,0.4385290096535146,WEAK
-44,Dla funkcji wypukłej g nierówność Jensena przyjmuje postać g(E[X]) >= E[g(X)].,0,2,True,0.3755338080994054,WEAK
-48,"Niezależność zmiennych losowych nie gwarantuje, że ich kowariancja wynosi 0.",0,2,True,0.3755338080994054,WEAK
-35,Norma macierzowa spektralna jest zdefiniowana jako suma modułów wszystkich elementów macierzy.,0,2,True,0.3755338080994054,WEAK
-23,Wskaźnik uwarunkowania macierzy informuje jedynie o czasie potrzebnym na wykonanie obliczeń numerycznych.,0,2,True,0.37553380809940534,WEAK
-51,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową rzędu O(n log n).,0,2,True,0.37553380809940534,WEAK
-24,Rozkład LU polega na przedstawieniu macierzy w postaci iloczynu macierzy dolnotrójkątnej i górnotrójkątnej.,1,2,True,0.37553380809940534,WEAK
-17,"Centralne Twierdzenie Graniczne orzeka, że sumy niezależnych zmiennych losowych o jednakowym rozkładzie i skończonej wariancji zbiegają według rozkładu do rozkładu normalnego.",1,2,True,0.37553380809940534,WEAK
-29,"Metoda Jacobiego jest zbieżna dla dowolnej macierzy nieosobliwej, niezależnie od jej struktury diagonalnej.",0,2,True,0.37553380809940534,WEAK
-7,"Jeśli funkcja g jest wypukła, to nierówność Jensena orzeka, że g(E[X]) <= E[g(X)].",1,2,True,0.2773500981126146,WEAK
-33,"Równania sztywne to typ równań różniczkowych, które można bez problemu rozwiązywać metodą Eulera z dużym krokiem.",0,2,True,0.2773500981126146,WEAK
-56,"Algorytm numerycznie stabilny to taki, w którym błędy zaokrągleń rosną wykładniczo w trakcie obliczeń.",0,2,True,0.2773500981126146,WEAK
+6,Dystrybuanta zmiennej losowej jest funkcją niemalejącą i lewostronnie ciągłą.,0,2,True,0.5222329678670935,WEAK
+19,"Jeśli wektor losowy (X,Y) ma rozkład normalny i Cov(X,Y)=0, to zmienne X i Y są niezależne.",1,2,True,0.5222329678670935,WEAK
+13,Zbieżność według prawdopodobieństwa implikuje zbieżność z prawdopodobieństwem 1.,0,2,True,0.5222329678670935,WEAK
+12,Zbieżność z prawdopodobieństwem 1 implikuje zbieżność według prawdopodobieństwa.,1,2,True,0.5222329678670935,WEAK
+27,"Rozkład LU macierzy istnieje zawsze, nawet jeśli na głównej przekątnej występują zera (bez konieczności permutacji).",0,2,True,0.5222329678670935,WEAK
+55,"Interpolacja polega na znalezieniu funkcji, która w zadanych węzłach przyjmuje określone wartości.",1,2,True,0.5222329678670935,WEAK
+42,W schemacie Bernoulliego prawdopodobieństwo sukcesu w każdej próbie musi być takie samo.,1,2,True,0.5222329678670935,WEAK
+43,"Z twierdzenia Poissona wynika, że rozkład dwumianowy zbiega do normalnego, gdy prawdopodobieństwo sukcesu dąży do zera.",0,2,True,0.5222329678670935,WEAK
+9,"Jeśli zmienne losowe są niezależne, to ich kowariancja wynosi 0.",1,2,True,0.5222329678670934,WEAK
+3,"Zbiór Vitaliego jest przykładem zbioru, który jest borelowski, ale nie jest mierzalny w sensie Lebesgue'a.",0,2,True,0.5222329678670934,WEAK
+14,"MPWL Kołmogorowa (I) zachodzi, jeśli zbieżny jest szereg sumy wariancji dzielonych przez n^2.",1,2,True,0.5222329678670934,WEAK
+16,"Jeśli funkcja generująca momenty istnieje w otoczeniu zera, to wyznacza ona rozkład zmiennej losowej jednoznacznie.",1,2,True,0.5222329678670934,WEAK
+38,"Metoda Gaussa-Seidela wymaga, aby macierz układu była np. silnie diagonalnie dominująca dla zagwarantowania zbieżności.",1,2,True,0.5222329678670934,WEAK
+45,"Centralne Twierdzenie Graniczne zakłada, że sumowane zmienne losowe mogą mieć nieskończoną wariancję.",0,2,True,0.5222329678670934,WEAK
+53,"Metoda Eulera jest uznawana za metodę wysokiego rzędu dokładności, idealną do precyzyjnych symulacji.",0,2,True,0.5222329678670934,WEAK
+59,"Funkcje sklejane trzeciego stopnia (splajny) są funkcjami ciągłymi, ale nie posiadają ciągłych pochodnych.",0,2,True,0.5222329678670934,WEAK
+32,"Algorytm numerycznie stabilny to taki, który nie dopuszcza do nadmiernej kumulacji błędów.",1,2,True,0.5222329678670934,WEAK
+57,Kwadratury Newtona-Cotesa opierają się na węzłach rozmieszczonych w równych odstępach.,1,2,True,0.5222329678670934,WEAK
+54,Standard IEEE 754 definiuje wyłącznie reprezentację liczb całkowitych w systemie komputerowym.,0,2,True,0.504524979109513,WEAK
+46,"Wzór Bayesa pozwala na odwrócenie warunkowania, czyli obliczenie P(A|B) znając P(B|A).",1,2,True,0.504524979109513,WEAK
+21,Złożoność obliczeniowa algorytmu eliminacji Gaussa dla układu n równań wynosi O(n^2).,0,2,True,0.504524979109513,WEAK
+22,"Metoda bisekcji gwarantuje znalezienie pierwiastka w zadanym przedziale, o ile funkcja jest ciągła i ma różne znaki na krańcach.",1,2,True,0.504524979109513,WEAK
+41,Dystrybuanta zmiennej losowej jest funkcją prawostronnie ciągłą.,1,2,True,0.504524979109513,WEAK
+37,Wielomian interpolacyjny Lagrange'a dla n+1 węzłów jest zawsze wielomianem stopnia n+1.,0,2,True,0.504524979109513,WEAK
+49,Sigma-ciało generowane przez rodzinę zbiorów to największe sigma-ciało zawierające tę rodzinę.,0,2,True,0.504524979109513,WEAK
+20,Metoda Newtona-Raphsona dla pierwiastków jednokrotnych charakteryzuje się zbieżnością kwadratową.,1,2,True,0.504524979109513,WEAK
+5,"Pierwszy Lemat Borela-Cantellego mówi, że jeśli suma prawdopodobieństw zdarzeń jest skończona, to z prawdopodobieństwem 1 zajdzie skończenie wiele tych zdarzeń.",1,2,True,0.504524979109513,WEAK
+2,"Jeśli ciąg zdarzeń jest wstępujący, to prawdopodobieństwo sumy jest granicą prawdopodobieństw.",1,2,True,0.504524979109513,WEAK
+52,Metoda Newtona jest zazwyczaj szybsza w bliskim sąsiedztwie pierwiastka niż metoda bisekcji.,1,2,True,0.504524979109513,WEAK
+47,Dystrybuanta rozkładu singularnego (np. funkcja Cantora) jest funkcją schodkową (nieciągłą).,0,2,True,0.46709936649691375,WEAK
+28,Standard IEEE 754 dotyczy reprezentacji binarnej i operacji na liczbach zmiennoprzecinkowych.,1,2,True,0.46709936649691375,WEAK
+30,Aproksymacja średniokwadratowa ma na celu minimalizację błędu zdefiniowanego w sensie normy L2.,1,2,True,0.46709936649691375,WEAK
+36,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową O(n^3).,1,2,True,0.46709936649691375,WEAK
+40,Zbieżność z prawdopodobieństwem 1 nie gwarantuje zbieżności według prawdopodobieństwa.,0,2,True,0.46709936649691375,WEAK
+58,Koszt eliminacji Gaussa dla pełnej macierzy rośnie sześciennie wraz z jej rozmiarem.,1,2,True,0.46709936649691375,WEAK
+34,Metoda Rungego-Kutty wykorzystuje średnią ważoną wartości funkcji w kilku punktach przedziału do wyznaczenia kolejnego kroku.,1,2,True,0.46709936649691375,WEAK
+11,Macierz kowariancji wektora losowego jest zawsze symetryczna i nieujemnie określona.,1,2,True,0.46709936649691375,WEAK
+1,Skończona addytywność prawdopodobieństwa jest warunkiem silniejszym niż przeliczalna addytywność.,0,2,True,0.46709936649691375,WEAK
+0,"Przecięcie dowolnej, nawet nieprzeliczalnej rodziny sigma-ciał jest zawsze sigma-ciałem.",1,2,True,0.46709936649691375,WEAK
+4,"Jeśli zdarzenia A, B i C są parami niezależne, to muszą być również wzajemnie niezależne.",0,2,True,0.46709936649691375,WEAK
+15,"Funkcja charakterystyczna zmiennej losowej istnieje tylko wtedy, gdy zmienna ta ma skończone momenty wszystkich rzędów.",0,2,True,0.46709936649691375,WEAK
+18,"Warunkowa wartość oczekiwana E[X|Y] jest liczbą rzeczywistą, a nie zmienną losową.",0,2,True,0.46709936649691375,WEAK
+10,Brak korelacji między zmiennymi losowymi zawsze implikuje ich niezależność.,0,2,True,0.40451991747794525,WEAK
+25,Błąd obcięcia jest tożsamy z błędem zaokrąglenia i wynika wyłącznie z reprezentacji liczb w komputerze.,0,2,True,0.40451991747794525,WEAK
+17,"Centralne Twierdzenie Graniczne orzeka, że sumy niezależnych zmiennych losowych o jednakowym rozkładzie i skończonej wariancji zbiegają według rozkładu do rozkładu normalnego.",1,2,True,0.40451991747794525,WEAK
+8,Wariancja przekształcenia liniowego aX+b wynosi a * Var[X].,0,2,True,0.40451991747794525,WEAK
+29,"Metoda Jacobiego jest zbieżna dla dowolnej macierzy nieosobliwej, niezależnie od jej struktury diagonalnej.",0,2,True,0.40451991747794525,WEAK
+24,Rozkład LU polega na przedstawieniu macierzy w postaci iloczynu macierzy dolnotrójkątnej i górnotrójkątnej.,1,2,True,0.40451991747794525,WEAK
+39,Błędy danych wejściowych i błędy zaokrągleń nie mają żadnego wpływu na wynik końcowy w algorytmach stabilnych numerycznie.,0,2,True,0.40451991747794525,WEAK
+50,Metoda Newtona dla pierwiastków jednokrotnych charakteryzuje się zazwyczaj zbieżnością liniową.,0,2,True,0.4045199174779452,WEAK
+26,Metoda Eulera rozwiązywania równań różniczkowych jest metodą o wolnej zbieżności i niskim rzędzie dokładności.,1,2,True,0.4045199174779452,WEAK
+7,"Jeśli funkcja g jest wypukła, to nierówność Jensena orzeka, że g(E[X]) <= E[g(X)].",1,2,True,0.30151134457776363,WEAK
+44,Dla funkcji wypukłej g nierówność Jensena przyjmuje postać g(E[X]) >= E[g(X)].,0,2,True,0.30151134457776363,WEAK
+51,Eliminacja Gaussa pozwala rozwiązać układ równań liniowych ze złożonością obliczeniową rzędu O(n log n).,0,2,True,0.30151134457776363,WEAK
+35,Norma macierzowa spektralna jest zdefiniowana jako suma modułów wszystkich elementów macierzy.,0,2,True,0.30151134457776363,WEAK
+48,"Niezależność zmiennych losowych nie gwarantuje, że ich kowariancja wynosi 0.",0,2,True,0.30151134457776363,WEAK
+23,Wskaźnik uwarunkowania macierzy informuje jedynie o czasie potrzebnym na wykonanie obliczeń numerycznych.,0,2,True,0.3015113445777636,WEAK
+33,"Równania sztywne to typ równań różniczkowych, które można bez problemu rozwiązywać metodą Eulera z dużym krokiem.",0,1,False,0.0,STRONG
 31,"Metoda bisekcji zbiega znacznie szybciej niż metoda Newtona, osiągając zazwyczaj zbieżność wykładniczą.",0,1,False,0.0,STRONG
+56,"Algorytm numerycznie stabilny to taki, w którym błędy zaokrągleń rosną wykładniczo w trakcie obliczeń.",0,1,False,0.0,STRONG

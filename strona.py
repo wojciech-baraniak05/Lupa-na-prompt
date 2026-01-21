@@ -74,10 +74,13 @@ def calculate_metrics(parsed_df, y_true):
 # ============= ZMIENNOŚĆ =============
 @st.cache_data
 def calculate_variability(parsed_df, y_true, df):
+    # Get strategy columns (exclude Flag and Unnamed)
+    strategy_columns = [col for col in parsed_df.columns if col != 'Flag' and 'Unnamed' not in col]
     variability_data = []
     
     for idx in range(len(parsed_df)):
-        row = parsed_df.iloc[idx].dropna()
+        # Only consider strategy columns for variability calculation
+        row = parsed_df[strategy_columns].iloc[idx].dropna()
         
         if len(row) > 0:
             unique_preds = row.unique()
@@ -172,16 +175,18 @@ def calculate_categories(metrics_df):
 # ============= RYZYKO =============
 @st.cache_data
 def calculate_risk(parsed_df, metrics_df, var_df, hallucination_threshold):
+    # Get strategy columns (exclude Flag and Unnamed)
+    strategy_columns = [col for col in parsed_df.columns if col != 'Flag' and 'Unnamed' not in col]
+    
     risk_matrix = []
-    for strategy in parsed_df.columns:
-        if strategy == 'Flag' or 'Unnamed' in strategy:
-            continue
+    for strategy in strategy_columns:
         strategy_volatility = []
         
         for idx in range(len(parsed_df)):
             inter_var = var_df[var_df['Idx'] == idx]['Std'].values
             if len(inter_var) > 0 and inter_var[0] > hallucination_threshold:
-                row_preds = parsed_df.iloc[idx].dropna()
+                # Only consider strategy columns, not Flag
+                row_preds = parsed_df[strategy_columns].iloc[idx].dropna()
                 if len(row_preds) > 1:
                     pred = parsed_df[strategy].iloc[idx]
                     if not np.isnan(pred):
@@ -527,9 +532,12 @@ with tab5:
     # Calculate interesting cases
     @st.cache_data
     def find_interesting_cases(parsed_df, raw_df, y_true):
+        # Get strategy columns (exclude Flag and Unnamed)
+        strategy_columns = [col for col in parsed_df.columns if col != 'Flag' and 'Unnamed' not in col]
         cases = []
         for idx in range(len(parsed_df)):
-            row = parsed_df.iloc[idx].dropna()
+            # Only consider strategy columns
+            row = parsed_df[strategy_columns].iloc[idx].dropna()
             if len(row) == 0:
                 continue
             
