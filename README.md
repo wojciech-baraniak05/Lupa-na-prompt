@@ -1,5 +1,6 @@
 # Lupa na Prompt - Analiza wpływu zmian promptu na odpowiedzi LLM
-W projekcie LLM służy do badania jak zmiany w promptach mogą wpłynąć na zmianę odpowiedzi. 
+W projekcie LLM służy do badania jak zmiany w promptach mogą wpłynąć na zmianę odpowiedzi.
+Domeną są zadania matematyczne z dziedziny rachunku prawdopodobieństwa oraz metod numerycznych.
 ## Jak uruchomić projekt?
 
 ### Inicjalizacja środowiska
